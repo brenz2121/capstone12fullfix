@@ -1,19 +1,7 @@
 
-1. Buka [halaman unduhan resmi Node.js](https://github.com/brenz2121/capstone12fullfix.git)
-2. Pilih Node.js **24 LTS** untuk Windows dalam format installer `.msi`. Aplikasi telah diuji dengan Node.js 24.17.0.
-3. Jalankan installer dan sertakan npm serta opsi penambahan Node.js ke PATH.
-4. Setelah instalasi selesai, buka jendela PowerShell baru, lalu periksa:
-
-```powershell
-node --version
-npm.cmd --version
-```
-
-Kedua perintah harus menampilkan nomor versi. Perintah `npm.cmd` digunakan dalam panduan ini agar dapat dijalankan dari PowerShell Windows tanpa bergantung pada izin eksekusi file `npm.ps1`.
-
 ### Siapkan file aplikasi
 
-1. Unduh arsip ZIP melalui **Code → Download ZIP** dari [repository ToiletCare](https://github.com/dirgasatyadev/ToiletCare).
+1. Unduh arsip ZIP melalui **Code → Download ZIP** dari [repository ToiletCare](https://github.com/brenz2121/capstone12fullfix.git).
 2. Ekstrak dan letakkan folder aplikasi, misalnya di `C:\ToiletCare`.
 3. Pastikan folder tersebut langsung berisi `package.json`, `package-lock.json`, `server.js`, `.env.example`, serta folder `client` dan `database`. Jangan memilih folder pembungkus ZIP yang masih berisi satu subfolder proyek.
 4. Buka PowerShell dan pasang dependensi aplikasi:
