@@ -1,14 +1,5 @@
-# ToiletCare — Panduan Instalasi
 
-Panduan ini menjelaskan pemasangan ToiletCare dari awal pada komputer Windows, mulai dari perangkat pendukung, database, hingga aplikasi dapat digunakan untuk daftar dan masuk.
-
-Anda dapat menggunakan **MySQL Server mandiri** atau **database dari XAMPP**. Pilih salah satu; keduanya tidak perlu dipasang bersamaan. Contoh lokasi proyek dalam panduan ini adalah `C:\ToiletCare`. Sesuaikan lokasi tersebut jika folder aplikasi Anda berbeda.
-
-## 1. Siapkan perangkat dan folder aplikasi
-
-### Pasang Node.js
-
-1. Buka [halaman unduhan resmi Node.js](https://nodejs.org/en/download).
+1. Buka [halaman unduhan resmi Node.js](https://github.com/brenz2121/capstone12fullfix.git)
 2. Pilih Node.js **24 LTS** untuk Windows dalam format installer `.msi`. Aplikasi telah diuji dengan Node.js 24.17.0.
 3. Jalankan installer dan sertakan npm serta opsi penambahan Node.js ke PATH.
 4. Setelah instalasi selesai, buka jendela PowerShell baru, lalu periksa:
